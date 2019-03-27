@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/product_detail_image_view"
+
+    />
+    <TextView
+        android:id="@+id/product_detail_image_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="18sp"
+
+        />
+    <TextView
+        android:id="@+id/product_detail_image_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:textSize="18sp"
+
+        />
+    <TextView
+        android:id="@+id/product_detail_image_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textSize="18sp"
+
+        />
+    <TextView
+        android:id="@+id/product_detail_image_condition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Condition"
+        android:textSize="18sp"
+
+        />
+    <TextView
+        android:id="@+id/product_detail_image_addDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add DAte"
+        android:textSize="18sp"
+
+        />
+    <TextView
+        android:id="@+id/product_detail_image_endDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="End DAte"
+        android:textSize="18sp"
+
+        /> <TextView
+    android:id="@+id/product_detail_image_addBy"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Add By"
+    android:textSize="18sp"
+
+    />
+    <TextView
+        android:id="@+id/product_detail_image_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number"
+        android:textSize="18sp"
+
+        />
+    <TextView
+        android:id="@+id/product_detail_image_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="18sp"
+
+        />
+    //width lai adjust garney lai weightsum=1
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:orientation="horizontal">
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:text="CALL"
+            android:layout_marginRight="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:drawableLeft="@drawable/ic_menu_camera"
+            android:id="@+id/product_detail_buttonCall"
+            />
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:text="MESSAGE"
+            android:layout_marginRight="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:drawableLeft="@drawable/ic_menu_gallery"
+            android:id="@+id/product_detail_buttonMessage"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>
